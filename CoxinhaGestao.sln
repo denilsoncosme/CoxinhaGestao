@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoxinhaGestao", "CoxinhaGestao\CoxinhaGestao.csproj", "{5BFDD5C7-5902-4EAE-B61D-AA2BBC032CA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoxinhaGestaoSRP", "CoxinhaGestaoSRP\CoxinhaGestaoSRP.csproj", "{100B43D2-F6B5-4BC5-AA9D-43A85F0CE211}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5BFDD5C7-5902-4EAE-B61D-AA2BBC032CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BFDD5C7-5902-4EAE-B61D-AA2BBC032CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BFDD5C7-5902-4EAE-B61D-AA2BBC032CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100B43D2-F6B5-4BC5-AA9D-43A85F0CE211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100B43D2-F6B5-4BC5-AA9D-43A85F0CE211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100B43D2-F6B5-4BC5-AA9D-43A85F0CE211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100B43D2-F6B5-4BC5-AA9D-43A85F0CE211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

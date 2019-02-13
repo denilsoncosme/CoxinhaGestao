@@ -30,7 +30,7 @@ namespace CoxinhaGestao
         private int CaiuSalEfetivo(Funcionario funcionario)
         {
             bool mesAnivers = funcionario.Aniversario.Month == DateTime.Now.Month;
-            if (DateTime.Now.Day >= funcionario.DiaSalario)
+            if (DateTime.Now.Day >= 5)
             {
                 if (mesAnivers)
                     return 150;
@@ -42,7 +42,7 @@ namespace CoxinhaGestao
 
         private int CaiuSalExperiencia(Funcionario funcionario)
         {
-            if (DateTime.Now.Day >= funcionario.DiaSalario)
+            if (DateTime.Now.Day >= 5)
             {
                 return 50;
             }
@@ -53,7 +53,7 @@ namespace CoxinhaGestao
 
         private int CaiuSalExterno(Funcionario funcionario)
         {
-            if (DateTime.Now.Day >= funcionario.DiaSalario)
+            if (DateTime.Now.Day >= 10)
             {
                 return 100;
             }

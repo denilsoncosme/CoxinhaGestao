@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoxinhaGestao.Model
+namespace CoxinhaGestaoSRP.Model
 {
     public class Funcionario
     { 
@@ -19,5 +19,6 @@ namespace CoxinhaGestao.Model
             this.TipoFuncionario = tipoFuncionario;
             this.Aniversario = aniversario;
         }
+
     }
 }
